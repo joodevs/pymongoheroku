@@ -6,8 +6,7 @@ from bs4 import BeautifulSoup
 
 from pymongo import MongoClient
 
-connect_string = 'mongodb+srv://jooyoung-oh:D6Gmg3bD3m@pymongo-heroku.4oygg.mongodb.net/pymongohero?retryWrites=true&w=majority'
-client = MongoClient(connect_string)
+client = MongoClient(MONGODB_URI)
 # client = MongoClient('localhost', 27017)
 db = client.get_default_database()
 
