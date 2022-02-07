@@ -1,0 +1,23 @@
+* {
+            font-family: "Bree Serif", serif;
+        }
+
+        .wrap {
+            width: 900px;
+            margin: auto;
+        }
+
+        .comment {
+            color: dodgerblue;
+            font-weight: bold;
+        }
+
+        #post-box {
+            width: 900px;
+            margin: auto;
+
+            border: 3px dashed grey;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            padding: 30px 30px 30px 30px;
+        }
