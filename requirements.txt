@@ -17,6 +17,7 @@ itsdangerous==2.0.1
 Jinja2==3.0.1
 jmespath==0.10.0
 MarkupSafe==2.0.1
+OS-Platform==1
 pipenv==2022.1.8
 platformdirs==2.4.1
 pyasn1==0.4.8
