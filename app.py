@@ -11,7 +11,7 @@ client = MongoClient(connect_string)
 # client = MongoClient('localhost', 27017)
 db = client.get_default_database()
 
-## HTML
+## For HTML
 @app.route('/')
 def home():
    return render_template('index.html')
@@ -21,7 +21,7 @@ def listing():
     articles = list(db.articles.find({}, {'_id': False}))
     return jsonify({'all_articles':articles})
 
-## API
+## For API
 @app.route('/memo', methods=['POST'])
 def saving():
     url_receive = request.form['url_give']
